@@ -1,0 +1,17 @@
+# OS / editor
+.DS_Store
+*.swp
+*~
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Secrets
+.env
+
+# Corpora from voice-dna-builder: do not commit writing samples
+corpus*.txt
+*.corpus
